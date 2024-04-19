@@ -1,0 +1,47 @@
+#root {
+  margin: auto;
+  text-align: center;
+}
+
+.foto {
+  height: 15em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  text-align: center;
+}
+
+.card {
+  justify-content: center;
+  background-color: #3b3b3b;
+  width: 100%;
+}
+
+.cardcomp {
+  border-radius: 12px;
+  padding: 1px;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 12px;
+  margin-bottom: 5px;
+  color: rgba(106, 182, 20, 0.87);
+  width: 25%;
+  margin: 5px auto 5px auto;
+}
+
+.cardgrid {
+  div {
+    padding: 0.5px;
+    border-radius: 12px;
+    border: 3px solid rgb(0, 0, 0);
+  }
+
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  padding: 0.5px;
+  border-radius: 12px;
+  color: #fcc102;
+  margin: 5px 5px 5px 5px;
+  grid-column-gap: 10px;
+  grid-row-gap: 1em;
+  font-size: large;
+}
